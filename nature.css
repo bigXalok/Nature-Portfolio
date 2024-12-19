@@ -1,0 +1,259 @@
+*{
+    background-color:rgba(45, 39, 38, 1);
+}
+.navbar{
+    
+    background-color:rgba(45, 39, 38, 1);
+    color:rgba(230, 216, 214, 1);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid rgba(230, 216, 214, 0.2);
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+   
+
+
+
+}
+.nav-links{
+
+    display: flex;
+    color:rgba(230, 216, 214, 1);
+    width: Hug (520px)px;
+    height: Hug (32px)px;
+    gap: 32px;
+    margin-right:0px;
+
+
+    
+
+}
+.nav-links a{
+    display: flex;
+    color:rgba(230, 216, 214, 1);
+    font-family: 'Hepta Slab',serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    text-decoration:none;
+
+
+}
+.nav-links a:last-child{
+    margin-right:20px;
+}
+.logo{
+    font-family: Prompt;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: left;
+    margin-left:20px
+
+}
+
+.main-header h1{
+    color:rgba(230, 216, 214, 1);
+    font-family: Hepta Slab;
+    font-size: 120px;
+    font-weight: 500;
+    line-height: 120px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+.main-header{
+    text-align:center;
+    padding : 96px 0px;
+}
+.main-header img{
+    border-radius:12px;
+    border:1.5px rgba(0, 0, 0, 0);
+}
+.projects{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 48px;
+    gap :48px;
+}
+.Project{
+    display:grid;
+    overflow:hidden;
+    gap :10px;
+}
+.Project img{
+    width:100%;
+    height:auto;
+    border-radius: 5px
+}
+.Project h3{
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight:400;
+    line-height:24px;
+    color:rgba(230, 216, 214, 1);
+    margin:5px 0px 0px 0px;
+}
+.Project p{
+    font-family:Fira Sans;
+    font-weight:400;
+    font-size:17px;
+    color:rgba(230, 216, 214, 0.62);
+    line-height:24px;
+    margin-top:0px;
+
+}
+
+.summary{
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: right;
+    color: rgba(230, 216, 214, 1);
+    text-align: left;
+    margin-left: 750px;
+    font-size: 1.7vw;
+    margin-top: 50px;
+    margin-right: 50px;
+
+
+
+}
+.summ {
+    margin-top: 100px;
+    margin-left: -100px;
+}
+.summ1{
+    margin-left: 20rem;
+    font-family: Hepta Slab;
+    width: 900px;
+    height: 32px;
+    color: rgba(230, 216, 214, 1);
+    
+}
+
+
+.summ3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    margin-left: 20rem;
+    width:900px;
+    /* height: 60px; */
+    /* gap: 20rem; */
+    /* background-color: red; */
+}
+
+.work {
+    color: rgba(230, 216, 214, 1);
+    width: 100%;
+}
+.work p {
+    font-family: Fira Sans;
+    width: 200px;
+}
+.work1{
+    color: rgba(230, 216, 214, 0.62);
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.about p {
+    width: 55%;
+    font-size: 48px;
+    text-align: center;
+    color: rgba(230, 216, 214, 1);
+    font-family: hepta slab;
+}
+
+.taglinecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    border-bottom: 1.5px solid rgba(182, 160, 145, 0.2);
+    padding-bottom: 100px;
+}
+
+.part {
+    height: 200px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover {
+    width: 70%;
+    font-size: 48px;
+    color: rgba(230, 216, 214, 1);
+    text-align: center;
+    font-family: hepta slab;
+}
+
+.dicover1 {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    font-size: 18px;
+    color: rgba(230, 216, 214, 1);
+    margin-top: 20px;
+    font-family: Fira sans;
+}
+.discoverbutton {
+    background-color: rgba(245, 156, 92, 1);
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 20px;
+    color: rgba(13, 4, 2, 1);
+    font-family: Fira sans;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left p {
+    margin: 0;
+    font-size: 28px;
+    color: rgba(230, 216, 214, 0.62);
+    font-family: 'Lexend Exa', sans-serif;
+    margin-left: 20px;
+    font-family: hepta slab;
+    margin-bottom: 20px;
+  
+}
+
+.footer-right .contact-button {
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(230, 216, 214, 0.2);
+    color: rgba(230, 216, 214, 1);
+    padding: 10px;
+    margin-right: 30px;
+    font-family: Fira sans;
+    margin-bottom: 20px;
+    
+}
+
